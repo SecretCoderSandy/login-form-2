@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font_size-1: 26px;
+    --font_size-2: 18px;
+    --font_size-3: 16px;
+    --font_size-4: 14px;
+    --font_size-5: 12px;
+
+    --color_1: white;
+    --color_2: rgb(218, 218, 218);
+    --color_3: gray;
+    --color_4: rgb(92, 228, 122);
+    --color_5: rgb(13, 233, 233);
+
+    --bd-redius: 8px;
+}
+body{
+    height: 100vh !important;
+    /* position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px; */
+    background-image: linear-gradient(var(--color_4), var(--color_5)) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#form-body{
+    width: 400px;
+    height: 570px;
+    min-width: 300px;
+    min-height: auto;
+    border-radius: var(--bd-redius);
+    margin: 2% auto;
+    /* background-image: linear-gradient(var(--color_4), var(--color_5)); */
+    background-color: var(--color_1);
+}
+#form-heading{
+    min-width: 100%;
+    padding-top: 50px;
+}
+.heading-2{
+    font-size: var(--font_size-1);
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control{
+    margin-top: 120px;
+}
+.input-control-box{
+    margin: 20px 0px;
+}
+.input-control{
+    width: 300px;
+    min-width: 300px;
+    height: 40px;
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--color_3);
+    font-size: var(--font_size-3);
+    padding: 0px 5px;
+}
+.btn{
+    width: 300px;
+    min-width: 300px;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: var(--font_size-4);
+    font-weight: bold;
+    background-color: burlywood;
+    border-radius: var(--bd-redius);
+}
+.btn{
+    cursor: pointer;
+}
+#login-btn{
+    margin-top: 30px;
+}
+#signup-btn{
+    margin: 15px 0px;
+}
+#fgt-pass{
+    text-align: center;
+    font-size: var(--font_size-4);
+}
